@@ -23,7 +23,9 @@ android {
     compileSdkVersion 30
     buildToolsVersion '30.0.3'
     ndkVersion '22.1.7171670'
-
+    lintOptions {
+        abortOnError false
+    }
     defaultConfig {
         applicationId 'io.github.krlvm.powertunnel.android'
         minSdkVersion 16
